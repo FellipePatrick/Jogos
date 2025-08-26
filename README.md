@@ -16,7 +16,9 @@ Este repositório contém um meus códigos utilizando **pygame** desenvolvido em
    pip install -r requirements.txt
 ``
 
-3. Execute o script e aproveite 🎯.
+3. Execute o script e aproveite 🎯:
+    ```bash
+   python main.py
 
 4. Imagens da aplicação
 
