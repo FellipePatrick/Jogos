@@ -20,4 +20,5 @@ Este repositório contém um meus códigos utilizando **pygame** desenvolvido em
 
 4. Imagens da aplicação
 
-<img width="833" height="479" alt="Captura de tela 2025-08-25 145856" src="https://github.com/user-attachments/assets/e224a219-b9d9-4352-8e17-2ea54f492314" />
+<img width="691" height="416" alt="image" src="https://github.com/user-attachments/assets/b5753790-937f-4ede-93da-6980537d19e7" />
+
