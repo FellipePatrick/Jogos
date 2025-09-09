@@ -9,6 +9,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 @onready var animated_sprite = $AnimatedSprite2D
 
+var assist = 0
+
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
@@ -29,12 +31,19 @@ func _physics_process(delta):
 	
 	# Play animations
 	if is_on_floor():
+		assist = 0
 		if direction == 0:
 			animated_sprite.play("idle")
 		else:
 			animated_sprite.play("run")
 	else:
 		animated_sprite.play("jump")
+	
+	if !is_on_floor():
+		assist-=JUMP_VELOCITY
+		if assist > 15000:
+			position = Vector2(-70.0, 5)
+			print("perdeu")
 	
 	# Apply movement
 	if direction:
