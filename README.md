@@ -7,8 +7,7 @@ Esta branch é para o meu jogo em godout
 1. Instale o godout:
    ```bash
      https://godotengine.org/download/windows/
-``
-
+   
 2. Importe no godout o projeto clonado!
 
 3. Imagens do jogo
