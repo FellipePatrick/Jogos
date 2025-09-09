@@ -2,13 +2,15 @@ extends Node2D
 
 const SPEED = 50
 
-# limites de movimento no eixo X
 @export var min_x: float = 300
 @export var max_x: float = 380
 
 var moving_right = true
 
 @onready var animated_sprite = $AnimatedSprite2D
+
+func _ready():
+	add_to_group("loser")
 
 func _process(delta):
 	animated_sprite.play("idle")
