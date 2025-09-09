@@ -1,25 +1,17 @@
 # Desenvolvimento de Jogos
 
-Este repositório contém um meus códigos utilizando **pygame** desenvolvido em **Python** para o desenvolvimento de jogos
+Esta branch é para o meu jogo em godout
 
 ## Como usar (Após clonar o repo)??
 
-1. Ative o ambiente virtual (venv):
+1. Instale o godout:
    ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux / MacOS
-   venv\Scripts\activate      # Windows
+     https://godotengine.org/download/windows/
 ``
 
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-``
+2. Importe no godout o projeto clonado!
 
-3. Execute o script e aproveite 🎯:
-    ```bash
-   python main.py
+3. Imagens do jogo
 
-4. Imagens da aplicação
+<img width="1913" height="1009" alt="image" src="https://github.com/user-attachments/assets/b2e6b9c0-8916-4de3-9850-c008aaa2f39a" />
 
-<img width="833" height="479" alt="Captura de tela 2025-08-25 145856" src="https://github.com/user-attachments/assets/e224a219-b9d9-4352-8e17-2ea54f492314" />
